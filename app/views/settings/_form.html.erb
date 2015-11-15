@@ -1,0 +1,8 @@
+<p>
+  <%= content_tag(:label, "#{l(:label_allow_failed_attempts)}:") %>
+  <%= number_field_tag 'settings[allow_failed_attempts]', @settings[:allow_failed_attempts], size: 10 %>
+  <br/>
+  (<%= l(:label_default_allow_failed_attempts) %>)
+  <br/>
+  <%= l(:note_allow_failed_attempts) %>
+</p>

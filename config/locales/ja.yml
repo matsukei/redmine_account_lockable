@@ -1,0 +1,5 @@
+ja:
+  label_allow_failed_attempts: "許容ログイン失敗回数"
+  label_default_allow_failed_attempts: "デフォルト: 5回まで"
+
+  note_allow_failed_attempts: "1以上を指定してください"
