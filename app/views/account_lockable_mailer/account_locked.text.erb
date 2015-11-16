@@ -1,0 +1,23 @@
+<%= l(:text_account_locked_description) %>
+
+---------------------------------------------------------------
+
+<%= l(:lable_failed_login_at) %>
+<%= l(:lable_last) %>: <%= @login_log.last_failed_login_at.to_s %>
+<%= l(:lable_current) %>: <%= @login_log.current_failed_login_at.to_s %>
+
+<%= l(:lable_failed_login_ip) %>
+<%= l(:lable_last) %>: <%= @login_log.last_failed_login_ip %>
+<%= l(:lable_current) %>: <%= @login_log.current_failed_login_ip %>
+
+<%= l(:lable_sign_in_at) %>
+<%= l(:lable_last) %>: <%= @login_log.last_sign_in_at.to_s %>
+<%= l(:lable_current) %>: <%= @login_log.current_sign_in_at.to_s %>
+
+<%= l(:lable_sign_in_ip) %>
+<%= l(:lable_last) %>: <%= @login_log.last_sign_in_ip %>
+<%= l(:lable_current) %>: <%= @login_log.current_sign_in_ip %>
+
+<%= l(:lable_account_locked_at) %>
+<%= l(:lable_last) %>: <%= @login_log.last_locked_at.to_s %>
+<%= l(:lable_current) %>: <%= @login_log.current_locked_at.to_s %>

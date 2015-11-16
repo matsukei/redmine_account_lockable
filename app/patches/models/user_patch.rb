@@ -13,13 +13,12 @@ module AccountLockable
     end
 
     def unlock!
-      if self.status_changed?
-        self.status_was == User::STATUS_LOCKED
-
+      if self.status_changed? && self.status_was == User::STATUS_LOCKED
         login_log = LoginLog.find_or_create_by(user_id: self.id)
         login_log.unlock!
       end
     end
+
   end
 end
 

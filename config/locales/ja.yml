@@ -1,5 +1,17 @@
 ja:
+  lable_last: 前回
+  lable_current: 今回
+
+  lable_failed_login_at: ログイン失敗日時
+  lable_failed_login_ip: ログイン失敗IPアドレス
+  lable_sign_in_at: ログイン成功日時
+  lable_sign_in_ip: ログイン成功IPアドレス
+  lable_account_locked_at: アカウントロック日時
+
   label_allow_failed_attempts: "許容ログイン失敗回数"
   label_default_allow_failed_attempts: "デフォルト: 5回まで"
 
   note_allow_failed_attempts: "1以上を指定してください"
+
+  text_account_locked_subject: "%{user}のアカウントをロックしました"
+  text_account_locked_description: ログイン失敗回数が一定回数を超えたためアカウントをロックしました

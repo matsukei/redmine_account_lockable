@@ -6,20 +6,20 @@ class CreateLoginLogs < ActiveRecord::Migration
       t.integer :sign_in_count, default: 0
       t.integer :failed_attempts, default: 0
 
-      t.time :current_sign_in_at
-      t.time :last_sign_in_at
+      t.datetime :current_sign_in_at
+      t.datetime :last_sign_in_at
 
       t.string :current_sign_in_ip
       t.string :last_sign_in_ip
 
-      t.time :current_failed_login_at
-      t.time :last_failed_login_at
+      t.datetime :current_failed_login_at
+      t.datetime :last_failed_login_at
 
       t.string :current_failed_login_ip
       t.string :last_failed_login_ip
 
-      t.time :current_locked_at
-      t.time :last_locked_at
+      t.datetime :current_locked_at
+      t.datetime :last_locked_at
     end
   end
 end

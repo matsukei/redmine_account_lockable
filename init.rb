@@ -7,7 +7,9 @@ Redmine::Plugin.register :redmine_account_lockable do
   author_url 'https://github.com/maeda-m'
 
   settings(partial: 'settings/form',
-    default: { allow_failed_attempts: 5 })
+    default: {
+      allow_failed_attempts: LoginLog::DEFAULT_ALLOW_FAILED_ATTEMPTS
+    })
 end
 
 require_relative 'lib/account_lockable'

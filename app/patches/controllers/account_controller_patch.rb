@@ -25,6 +25,8 @@ module AccountLockable
       if login_log.lockable?
         user.lock!
         login_log.locked!
+
+        AccountLockableMailer.account_locked(user, login_log).deliver
       end
     end
 
