@@ -1,5 +1,7 @@
 # Redmine Account Lockable
 
+[![Build Status](https://travis-ci.org/matsukei/redmine_account_lockable.svg?branch=master)](https://travis-ci.org/matsukei/redmine_account_lockable)
+
 Redmine plugin for locking of account at failed login.
 
 ## Usage
