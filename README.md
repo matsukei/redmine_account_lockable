@@ -5,18 +5,18 @@ Redmine plugin for locking of account at failed login.
 ## Usage
 
 Set the count of allow failed logins in the setting of Redmine administrator.
-![usage.png](https://github.com/maeda-m/redmine_account_lockable/blob/master/doc/images/usage.png)
+![settings](https://cloud.githubusercontent.com/assets/943541/26718946/a7fdc574-47bd-11e7-9fb4-582187019ca6.png)
 
 ## Supported versions
 
-Redmine 3.1.x
+Redmine 3.2.x or higher
 
 ## Install
 
 `git clone` to `plugins/redmine_account_lockable` on your Redmine path.
 
 ```
-$ git clone https://github.com/maeda-m/redmine_account_lockable.git /path/to/your-redmine/plugins/redmine_account_lockable
+$ git clone https://github.com/matsukei/redmine_account_lockable.git /path/to/your-redmine/plugins/redmine_account_lockable
 ```
 
 Then, migrate:
