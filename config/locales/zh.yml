@@ -1,0 +1,17 @@
+zh:
+  lable_last: 上次登陆时间
+  lable_current: 本次登陆时间
+
+  lable_failed_login_at: 登陆失败时间
+  lable_failed_login_ip: 登陆失败时IP
+  lable_sign_in_at: 登陆成功时间
+  lable_sign_in_ip: 登陆成功时IP
+  lable_account_locked_at: 账号锁定时间
+
+  label_allow_failed_attempts: 登录失败时允许尝试次数
+  label_default_allow_failed_attempts: "默认：最多 5 次。"
+
+  note_allow_failed_attempts: "次数设置必须至少大于等于 1 次。"
+
+  text_account_locked_subject: "账户 %{user} 已锁定。"
+  text_account_locked_description: "超过设定的登陆尝试次数，账号将被锁定。
